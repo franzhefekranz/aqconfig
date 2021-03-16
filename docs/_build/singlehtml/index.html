@@ -1,0 +1,686 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Aqconfig - configuration tool for Aqserver</title>
+    <link rel="stylesheet" href="_static/bizstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script type="text/javascript" src="_static/bizstyle.js"></script>
+    <link rel="author" title="About these documents" href="index.html#document-about" />
+    <link rel="search" title="Search" href="search.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="nav-item nav-item-0"><a href="index.html#document-index">Aqconfig</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html#document-index">
+              <img class="logo" src="_static/ti-schriftzug-sml.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html#document-index">Table of Contents</a></h3>
+  <ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-about">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-main">Main interface</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#menu-and-toolbar">Menu and toolbar</a></li>
+<li class="toctree-l2"><a class="reference internal" href="index.html#statusbar">Statusbar</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-info">Information tab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-com">Communication tab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-misc">Miscellaneous tab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-trigger">Trigger tab</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#trigger-wikipedia">Trigger (Wikipedia):</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-debug">Debug tab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-values">Values tab</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#values">Values</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="index.html#value">Value</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#bool">Bool</a></li>
+<li class="toctree-l3"><a class="reference internal" href="index.html#buttons">Buttons</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="index.html#duplicate-names">Duplicate names</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-list">List tab</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-settings">Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-changelog">Changelog</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#document-license">Licensing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="index.html#disclaimer-of-warranty">Disclaimer of Warranty</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="aqconfig-configuration-for-data-acquisition-server">
+<h1>Aqconfig - configuration for data acquisition server<a class="headerlink" href="#aqconfig-configuration-for-data-acquisition-server" title="Permalink to this headline">¶</a></h1>
+<p>The program edits the configuration for an acquisition tool for Siemens Simatic S7 PLCs.
+It was written in Python with Tkinter as GUI library.
+To build the GUI a GUI Builder named PAGE was used.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Homepage</dt>
+<dd class="field-odd"><p><a class="reference external" href="http://www.taxis-instruments.de">http://www.taxis-instruments.de</a></p>
+</dd>
+<dt class="field-even">Contact</dt>
+<dd class="field-even"><p>&lt;aqserver at taxis-instruments dot de&gt;</p>
+</dd>
+<dt class="field-odd">Author</dt>
+<dd class="field-odd"><p>Michael Taxis &lt;michael at taxis-instruments dot de&gt;</p>
+</dd>
+</dl>
+<p>Copyright of this document:</p>
+<dl class="field-list simple">
+<dt class="field-odd">Copyright</dt>
+<dd class="field-odd"><p><a class="reference external" href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></p>
+</dd>
+</dl>
+<p>Copyright of the program:</p>
+<dl class="field-list simple">
+<dt class="field-odd">Copyright</dt>
+<dd class="field-odd"><p><a class="reference external" href="https://www.gnu.org/licenses/lgpl-3.0-standalone.html">LESSER GNU GENERAL PUBLIC LICENSE 3.0</a></p>
+</dd>
+</dl>
+<p>Please note that soft- and hardware designations and brand names of their respective companies  used in this document are  generally subject to trademark protection or patent protection.</p>
+<div class="toctree-wrapper compound">
+<span id="document-about"></span><div class="section" id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h2>
+<p>With this program you can edit configuration files for the data aqcuisition program aqserver.
+Its GUI is written in Python and Tkinter.
+To build the GUI a GUI Builder named PAGE was used.</p>
+<p>This was my first (finished) Python (3) application with a GUI. I always use my
+(private) projects to learn something new.
+Lots of web pages and lots of <a class="reference external" href="https://stackoverflow.com/">Stack overflow</a> entries
+have been visited to find solutions to my problems.
+Thanks a lot to the community of coders and developpers.</p>
+</div>
+<span id="document-main"></span><div class="section" id="main-interface">
+<h2>Main interface<a class="headerlink" href="#main-interface" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="menu-and-toolbar">
+<h3>Menu and toolbar<a class="headerlink" href="#menu-and-toolbar" title="Permalink to this headline">¶</a></h3>
+<img alt="Values" class="align-center" src="_images/toolbar.png" />
+<p>Menu and toolbar show the same functions. left part of the toolbar shows the
+File menu functions, right part shows the Help menu functions.</p>
+<ol class="arabic">
+<li><dl>
+<dt>File</dt><dd><ol class="arabic">
+<li><p>New</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/btn-document-new.png"><img alt="New" class="align-left" src="_images/btn-document-new.png" style="width: 32px; height: 32px;" /></a>
+<p>Clears all fields for a fresh config file</p>
+</div></blockquote>
+</li>
+<li><p>Open …</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/btn-document-open.png"><img alt="Open" class="align-left" src="_images/btn-document-open.png" style="width: 32px; height: 32px;" /></a>
+<p>Opens an existing configuration file</p>
+</div></blockquote>
+</li>
+<li><p>Save</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/btn-document-save.png"><img alt="Save" class="align-left" src="_images/btn-document-save.png" style="width: 32px; height: 32px;" /></a>
+<p>Save the open file</p>
+</div></blockquote>
+</li>
+<li><p>Save as …</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/btn-document-save-as.png"><img alt="Save as ..." class="align-left" src="_images/btn-document-save-as.png" style="width: 32px; height: 32px;" /></a>
+<p>Lets you save the open file under a new name</p>
+</div></blockquote>
+</li>
+<li><p>Settings</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/btn-configure.png"><img alt="Settings" class="align-left" src="_images/btn-configure.png" style="width: 32px; height: 32px;" /></a>
+<p>Opens a new dialog window, where you can adjust the program settings</p>
+</div></blockquote>
+</li>
+<li><p>Save *.bat</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/btn-ms_dos_batch_file.png"><img alt="Save \*.bat" class="align-left" src="_images/btn-ms_dos_batch_file.png" style="width: 32px; height: 32px;" /></a>
+<p>Saves a batch file next to the config file, that you can use to start
+Aqserver directly with this config-file</p>
+</div></blockquote>
+</li>
+<li><p>Quit</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/btn-close.png"><img alt="Quit" class="align-left" src="_images/btn-close.png" style="width: 32px; height: 32px;" /></a>
+<p>Closes the configuration program</p>
+</div></blockquote>
+</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Help</dt><dd><ol class="arabic" start="8">
+<li><p>Help contents</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/btn-help-contents.png"><img alt="Help" class="align-left" src="_images/btn-help-contents.png" style="width: 32px; height: 32px;" /></a>
+<p>Opens the help file i a browser</p>
+</div></blockquote>
+</li>
+<li><p>Context help</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/btn-help-contextual.png"><img alt="Context help" class="align-left" src="_images/btn-help-contextual.png" style="width: 32px; height: 32px;" /></a>
+<p>switches the mouse pointer to a arrow with question mark. Click on a element
+in the interface and help for this element will be displayed in the browser</p>
+</div></blockquote>
+</li>
+<li><p>About</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="_images/btn-help-about.png"><img alt="About" class="align-left" src="_images/btn-help-about.png" style="width: 32px; height: 32px;" /></a>
+<p>Shows an About box for the program</p>
+</div></blockquote>
+</li>
+</ol>
+</dd>
+</dl>
+</li>
+</ol>
+<img alt="About box" class="align-left" src="_images/about.png" />
+</div>
+<div class="section" id="statusbar">
+<h3>Statusbar<a class="headerlink" href="#statusbar" title="Permalink to this headline">¶</a></h3>
+<img alt="Statusbar" class="align-center" src="_images/statusbar.png" />
+<p>The statusbar shows the name of the open config file and whether it has been modified</p>
+</div>
+</div>
+<span id="document-info"></span><div class="section" id="information-tab">
+<h2>Information tab<a class="headerlink" href="#information-tab" title="Permalink to this headline">¶</a></h2>
+<img alt="information" class="align-center" src="_images/01_info.png" />
+<p>In this tab we can enter some general information about the data recording, to identify the situation later on</p>
+<ol class="arabic simple">
+<li><dl class="simple">
+<dt>Customer:</dt><dd><p>here we enter the customers name or some other information</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Creator:</dt><dd><p>enter your name</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Machine:</dt><dd><p>information about the machine (e.g. type, year, machine number)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Order:</dt><dd><p>enter your order number</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Remarks:</dt><dd><p>enter a description for the recording, e.g. what was the problem, how did you solve it, result</p>
+</dd>
+</dl>
+</li>
+</ol>
+</div>
+<span id="document-com"></span><div class="section" id="communication-tab">
+<h2>Communication tab<a class="headerlink" href="#communication-tab" title="Permalink to this headline">¶</a></h2>
+<img alt="Communication" class="align-center" src="_images/02_com.png" />
+<p>Here we enter the communication details, how to reach the PLC</p>
+<ol class="arabic simple">
+<li><dl class="simple">
+<dt>Demo:</dt><dd><p>if checked, we run the program in demo mode, no real communication, random values will be created</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>IP address:</dt><dd><p>enter the IP address of the PLC</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Rack no.:</dt><dd><p>enter the rack number of the PLC</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Slot no.:</dt><dd><p>enter the slot number for the CPU in the rack, can be found in HW Config of Step7</p>
+</dd>
+</dl>
+</li>
+</ol>
+<img alt="Hw config in Step7" class="align-center" src="_images/hwconfig.png" />
+</div>
+<span id="document-misc"></span><div class="section" id="miscellaneous-tab">
+<h2>Miscellaneous tab<a class="headerlink" href="#miscellaneous-tab" title="Permalink to this headline">¶</a></h2>
+<img alt="Miscellaneous" class="align-left" src="_images/03_misc.png" />
+<ol class="arabic">
+<li><dl class="simple">
+<dt>datafile prefix</dt><dd><p>here you enter the name of the datafile, archives will additionally
+have a timestamp in the name.</p>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>storage path</dt><dd><p>here you can enter the path where you want the archives to be stored.
+With the button a dialog willl open where you can pick a directory</p>
+<blockquote>
+<div><img alt="directory dialog" class="align-left" src="_images/dialog-path.png" />
+</div></blockquote>
+<p>With this dialog you can select the storage path</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>use….</dt><dd><p>With this checkbox you can select whether the archives should be stored under a directory structure by day</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>scantime</dt><dd><p>enter the scan interval in milliseconds</p>
+</dd>
+</dl>
+</li>
+</ol>
+</div>
+<span id="document-trigger"></span><div class="section" id="trigger-tab">
+<h2>Trigger tab<a class="headerlink" href="#trigger-tab" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="trigger-wikipedia">
+<h3>Trigger (Wikipedia):<a class="headerlink" href="#trigger-wikipedia" title="Permalink to this headline">¶</a></h3>
+<p>In physics, a trigger is a system that controls the data collection of an experiment.
+Often it is not possible or not important to continuously record all measured values
+in experiments. In this case only a part of the measured values is read out and based
+on this, it is decided when the remaining data should be read out.</p>
+<p>In our case we use the trigger to start a new datafile.</p>
+<img alt="Trigger" class="align-left" src="_images/04_trigger.png" />
+<ol class="arabic">
+<li><dl class="simple">
+<dt>trigger checkbox:</dt><dd><p>switch trigger function on or off</p>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>trigger signal:</dt><dd><p>choose the trigger from available signals with the combobox</p>
+<p><img alt="04_trigger-signal" src="_images/04_trigger-signal.png" /></p>
+<p>combobox with trigger signals</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>trigger condition:</dt><dd><p>choose the comparison operator for the trigger</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>trigger value:</dt><dd><p>value the trigger signal is compared with</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>pre-trigger:</dt><dd><p>time before the trigger, where signals will go into new file</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>post-trigger:</dt><dd><p>time after trigger, where signals will go into old file</p>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Pre- and post-trigger are used to get an overlap between old and new datafile</p>
+</div>
+</div>
+</div>
+<span id="document-debug"></span><div class="section" id="debug-tab">
+<h2>Debug tab<a class="headerlink" href="#debug-tab" title="Permalink to this headline">¶</a></h2>
+<img alt="Debug" class="align-left" src="_images/05_debug.png" />
+<ol class="arabic simple">
+<li><dl class="simple">
+<dt>Level</dt><dd><p>select the debugging level (for aqserver), where “1 - INFO” is the most verbose</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Files to keep</dt><dd><p>Give a number of logging files that will be kept.</p>
+</dd>
+</dl>
+</li>
+</ol>
+</div>
+<span id="document-values"></span><div class="section" id="values-tab">
+<h2>Values tab<a class="headerlink" href="#values-tab" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="values">
+<h3>Values<a class="headerlink" href="#values" title="Permalink to this headline">¶</a></h3>
+<img alt="Values" class="align-left" src="_images/06_value.png" />
+<ol class="arabic simple">
+<li><dl class="simple">
+<dt>Area of values</dt><dd><p>select the area of the value from the following</p>
+<ol class="loweralpha simple">
+<li><dl class="simple">
+<dt>Data</dt><dd><p>value is from the data area, you have to select also a datablock number and the address</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Output</dt><dd><p>value is from the output area, you have to select also  the address.
+Note that datablock number is greyed out.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Input</dt><dd><p>value is from the input area, you have to select also  the address.
+Note that datablock number is greyed out.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Flag</dt><dd><p>value is from the flag area, you have to select also  the address.
+Note that datablock number is greyed out.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Timer</dt><dd><p>value is from the timer area, you have to select also  the address.
+Note that datablock number is greyed out.
+Also the only allowed format is Int 16 bit</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Counter</dt><dd><p>value is from the counter area, you have to select also  the address.
+Note that datablock number is greyed out.
+Also the only allowed format is Int 16 bit</p>
+</dd>
+</dl>
+</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Data block number</dt><dd><p>enter / select the number of the datablock</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Address</dt><dd><p>enter the address of the value</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Format</dt><dd><p>select the format of the value with the radio buttons</p>
+<ol class="loweralpha simple">
+<li><dl class="simple">
+<dt>Real 32 bit</dt><dd><p>value is a real (float) number , with a length of 32 bit (REAL)
+Note that bottom notebook switches automatically to the value tab.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Dint 32 bit</dt><dd><p>value is a integer number, with a length of 32 bit (DINT)
+Note that bottom notebook switches automatically to the value tab.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Int 16 bit</dt><dd><p>value is a integer number, with a length of 16 bit (WORD)
+Note that bottom notebook switches automatically to the value tab.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Int 8 bit</dt><dd><p>value is a integer number, with a length of 8 bit (BYTE)
+Note that bottom notebook switches automatically to the value tab.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Bool</dt><dd><p>value is a boolean value (TRUE/FALSE). Note that bottom notebook
+switches automatically to the bool tab.</p>
+</dd>
+</dl>
+</li>
+</ol>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="section" id="value">
+<h4>Value<a class="headerlink" href="#value" title="Permalink to this headline">¶</a></h4>
+<img alt="Values" class="align-left" src="_images/06_values-value.png" />
+<ol class="arabic">
+<li><dl>
+<dt>Name</dt><dd><p>The name for the value</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Names have to be unique. No duplicate entries are allowed in the list!</p>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Gain</dt><dd><p>The value coming from the PLC is multiplied with this value
+This can be used if several signals have to be compared
+but have different range (but maybe the same shape). Leave 1.0 for no effect (default setting).</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Offset</dt><dd><p>This value is added to the result of (value coming from the PLC multiplied by gain)
+Use this to shift the value up or down. Leave 0.0 for no effect (default setting)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Unit</dt><dd><p>Enter a unit of the measured value, e.g. m³, bar, psi…</p>
+</dd>
+</dl>
+</li>
+</ol>
+</div>
+<div class="section" id="bool">
+<h4>Bool<a class="headerlink" href="#bool" title="Permalink to this headline">¶</a></h4>
+<p>Smallest value that can be read from the PLC is a Byte.
+So in order to get a boolean value we have to get a byte and then separate it to 8 booleans.</p>
+<img alt="Bool values" class="align-left" src="_images/07_values-bool.png" />
+<ol class="arabic simple">
+<li><dl class="simple">
+<dt>name for every bit</dt><dd><p>The name for the bits (also unique)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Gain for every bit</dt><dd><p>Gain does not make much sense, but we have it anyway. Leave 1 for no effect (default setting)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Offset for every bit</dt><dd><p>This value is added to the result of (value coming from the PLC multiplied by gain).
+Can be useful if several boolean values are in one graph, to separate them.
+Leave 0 for no effect (default setting)</p>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>There is no unit for a boolean value</p>
+</div>
+</div>
+<div class="section" id="buttons">
+<h4>Buttons<a class="headerlink" href="#buttons" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><dl class="simple">
+<dt>Clear</dt><dd><p>This button clears the entry fields and sets some defaults</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Edit</dt><dd><p>This button switches to the list tab, sop you select a value/row for edit</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Save</dt><dd><p>Changes to a selected value will be saved to the list.
+If no value was selected previously , then button is greyed out</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Add</dt><dd><p>Values entered to the fields will be added to the end of the list</p>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="section" id="duplicate-names">
+<h5>Duplicate names<a class="headerlink" href="#duplicate-names" title="Permalink to this headline">¶</a></h5>
+<p>All value names must be unique. If a name entered to the Name field
+or to the Name0..7 field for the boolean is already in the list, a
+dialog will open and show the duplicates. Enter a different name for the shown ones
+and save/add again.</p>
+<img alt="Duplicate names" class="align-left" src="_images/dialog-duplicate.png" />
+</div>
+</div>
+</div>
+</div>
+<span id="document-list"></span><div class="section" id="list-tab">
+<h2>List tab<a class="headerlink" href="#list-tab" title="Permalink to this headline">¶</a></h2>
+<img alt="List" class="align-left" src="_images/08_list.png" />
+<ol class="arabic simple">
+<li><dl class="simple">
+<dt>Edit</dt><dd><p>Edit the selected value/row from the list. Will open this value in the values tab</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Delete</dt><dd><p>Deletes the selected value from the list. Has to be confirmed.</p>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Deleting a value from the list can destroy the display of a datafile in KST2,
+because it is based on the order of the values in the datafiel. When we change the
+order by deleting a value from the list, then display will not work anymore.</p>
+</div>
+</div>
+<span id="document-settings"></span><div class="section" id="settings">
+<h2>Settings<a class="headerlink" href="#settings" title="Permalink to this headline">¶</a></h2>
+<img alt="Settings" class="align-left" src="_images/dialog-settings.png" />
+<ol class="arabic">
+<li><dl>
+<dt>Button Path to Aqserver.exe</dt><dd><p>Here we have to select the directory where the Aqserver.exe is located.</p>
+<p>Default location is “C:Program Files (x86)Aqserver”</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Label Path to Aqserver.exe</dt><dd><p>The label shows the directory</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Language combobox</dt><dd><p>Select language for the program from the combobox</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Ok</dt><dd><p>Click to accept settings</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Cancel</dt><dd><p>Click to close the dialog and leave previous settings</p>
+</dd>
+</dl>
+</li>
+</ol>
+</div>
+<span id="document-changelog"></span><div class="section" id="changelog">
+<h2>Changelog<a class="headerlink" href="#changelog" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><ul>
+<li><p>05 October 2020</p>
+<blockquote>
+<div><ul>
+<li><p>0.1.0alpha</p>
+<blockquote>
+<div><p>first version</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div>
+<span id="document-license"></span><div class="section" id="licensing">
+<h2>Licensing<a class="headerlink" href="#licensing" title="Permalink to this headline">¶</a></h2>
+<p>Aqserver is distributed as python source code or Windows setup program under
+<a class="reference external" href="https://www.gnu.org/licenses/lgpl-3.0-standalone.html">Lesser General Public License version 3.0 (LGPLv3)</a></p>
+<p>Basically this means that you can distribute your commercial software
+linked with Aqconfig without the requirement to distribute the source
+code of your application and without the requirement that your
+application be itself distributed under LGPL.</p>
+<p>A small mention to the project or the author is however appreciated
+if you include it in your applications.</p>
+<div class="section" id="disclaimer-of-warranty">
+<h3>Disclaimer of Warranty<a class="headerlink" href="#disclaimer-of-warranty" title="Permalink to this headline">¶</a></h3>
+<p>THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE
+COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS”
+WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED,
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE
+RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU.
+SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL
+NECESSARY SERVICING, REPAIR OR CORRECTION.</p>
+<p>IF ANYONE BELIEVES THAT, WITH THIS WEBSITE OR WITH AQCONFIG PROJECT
+SOME COPYRIGHTS HAVE BEEN VIOLATED, PLEASE EMAIL US, AND ALL THE
+NECESSARY CHANGES WILL BE MADE.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="nav-item nav-item-0"><a href="index.html#document-index">Aqconfig</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Michael Taxis.
+      Last updated on Nov 06, 2020.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.0.
+    </div>
+  </body>
+</html>

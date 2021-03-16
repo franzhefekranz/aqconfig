@@ -1,0 +1,581 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"statusbarProject-Id-Version: \n"
+"POT-Creation-Date: 2020-11-06 10:59+0100\n"
+"PO-Revision-Date: 2020-11-09 11:13+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+"Project-Id-Version: \n"
+
+#: aqconfig.py:108
+msgid "File"
+msgstr "File"
+
+#: aqconfig.py:111 aqconfig.py:1820
+msgid "New"
+msgstr "New"
+
+#: aqconfig.py:114
+msgid "Open ..."
+msgstr "Open ..."
+
+#: aqconfig.py:117 aqconfig.py:1718
+msgid "Save"
+msgstr "Save"
+
+#: aqconfig.py:120
+msgid "Save as ..."
+msgstr "Save as ..."
+
+#: aqconfig.py:123
+msgid "Save *.bat"
+msgstr "Save *.bat"
+
+#: aqconfig.py:126
+msgid "Settings"
+msgstr "Settings"
+
+#: aqconfig.py:129
+msgid "Quit"
+msgstr "Quit"
+
+#: aqconfig.py:140
+msgid "Help"
+msgstr "Help"
+
+#: aqconfig.py:143
+msgid "Contents"
+msgstr "Contents"
+
+#: aqconfig.py:146 aqconfig.py:1933
+msgid "Contextual help"
+msgstr "Contextual help"
+
+#: aqconfig.py:149 aqconfig.py:1946
+msgid "About"
+msgstr "About"
+
+#: aqconfig.py:166
+msgid "Communication"
+msgstr "Communication"
+
+#: aqconfig.py:173
+msgid "Miscellaneous"
+msgstr "Miscellaneous"
+
+#: aqconfig.py:180
+msgid "Trigger"
+msgstr "Trigger"
+
+#: aqconfig.py:186
+msgid "Debug"
+msgstr "Debug"
+
+#: aqconfig.py:192
+msgid "Values"
+msgstr "Values"
+
+#: aqconfig.py:198
+msgid "List"
+msgstr "List"
+
+#: aqconfig.py:211
+msgid "Customer:"
+msgstr "Customer:"
+
+#: aqconfig.py:221
+msgid "Creator:"
+msgstr "Creator:"
+
+#: aqconfig.py:231
+msgid "Machine:"
+msgstr "Machine:"
+
+#: aqconfig.py:241
+msgid "Order:"
+msgstr "Order:"
+
+#: aqconfig.py:251
+msgid "Remarks:"
+msgstr "Remarks:"
+
+#: aqconfig.py:263
+msgid "enter the name of the customer / mill"
+msgstr "enter the name of the customer / mill"
+
+#: aqconfig.py:275
+msgid "enter your name"
+msgstr "enter your name"
+
+#: aqconfig.py:287
+msgid "enter the type of machine"
+msgstr "enter the type of machine"
+
+#: aqconfig.py:299
+msgid "enter your order number"
+msgstr "enter your order number"
+
+#: aqconfig.py:314
+msgid "enter some description"
+msgstr "enter some description"
+
+#: aqconfig.py:323
+msgid "Demo"
+msgstr "Demo"
+
+#: aqconfig.py:326
+msgid "run communication in demo"
+msgstr "run communication in demo"
+
+#: aqconfig.py:338
+msgid "IP address:"
+msgstr "IP address:"
+
+#: aqconfig.py:350
+msgid "Rack no.:"
+msgstr "Rack no.:"
+
+#: aqconfig.py:362
+msgid "Slot no.:"
+msgstr "Slot no.:"
+
+#: aqconfig.py:392 aqconfig.py:422 aqconfig.py:452
+msgid "."
+msgstr "."
+
+#: aqconfig.py:518
+msgid "Attempts:"
+msgstr "Attempts:"
+
+#: aqconfig.py:546
+msgid "Datafile prefix:"
+msgstr "Datafile prefix:"
+
+#: aqconfig.py:549 aqconfig.py:562
+msgid "enter name of the datafile without extension"
+msgstr "enter name of the datafile without extension"
+
+#: aqconfig.py:559
+msgid "Storage path:"
+msgstr "Storage path:"
+
+#: aqconfig.py:572
+msgid "Scantime:"
+msgstr "Scantime:"
+
+#: aqconfig.py:584
+msgid "enter the name of the datafile, without extension"
+msgstr "enter the name of the datafile, without extension"
+
+#: aqconfig.py:596
+msgid "enter the name of the storage path for archived files"
+msgstr "enter the name of the storage path for archived files"
+
+#: aqconfig.py:602
+msgid "..."
+msgstr "..."
+
+#: aqconfig.py:609
+msgid "use yyyy/mm/dd directory structure"
+msgstr "use yyyy/mm/dd directory structure"
+
+#: aqconfig.py:612
+#, fuzzy
+msgid "file are store in a directory structure, per day"
+msgstr "file are store in a directory structure, per day"
+
+#: aqconfig.py:641
+msgid "[ms]"
+msgstr "[ms]"
+
+#: aqconfig.py:648
+msgid "auto start"
+msgstr "auto start"
+
+#: aqconfig.py:651
+#, fuzzy
+msgid "file are stored in a directory structure, per day"
+msgstr "file are stored in a directory structure, per day"
+
+#: aqconfig.py:661
+msgid "max. records:"
+msgstr "max. records:"
+
+#: aqconfig.py:664
+msgid "maximum number of records in one file, to avoid big files"
+msgstr "maximum number of records in one file, to avoid big files"
+
+#: aqconfig.py:690
+msgid "use trigger"
+msgstr "use trigger"
+
+#: aqconfig.py:693
+msgid "use a trigger to start a new file"
+msgstr "use a trigger to start a new file"
+
+#: aqconfig.py:703
+msgid "Use value:"
+msgstr "Use value:"
+
+#: aqconfig.py:713
+msgid "Condition:"
+msgstr "Condition:"
+
+#: aqconfig.py:723
+msgid "Compare with:"
+msgstr "Compare with:"
+
+#: aqconfig.py:733
+msgid "Pretrigger time:"
+msgstr "Pretrigger time:"
+
+#: aqconfig.py:743
+msgid "Posttrigger time:"
+msgstr "Posttrigger time:"
+
+#: aqconfig.py:754
+msgid "select value for trigger"
+msgstr "select value for trigger"
+
+#: aqconfig.py:767
+msgid "select the comparison operation"
+msgstr "select the comparison operation"
+
+#: aqconfig.py:823 aqconfig.py:833
+msgid "[s]"
+msgstr "[s]"
+
+#: aqconfig.py:843
+msgid "Level"
+msgstr "Level"
+
+#: aqconfig.py:846
+msgid "level of debug messages - makes more or less verbose"
+msgstr "level of debug messages - makes more or less verbose"
+
+#: aqconfig.py:856
+msgid "Files to keep:"
+msgstr "Files to keep:"
+
+#: aqconfig.py:859
+msgid "number of logfiles to keep"
+msgstr "number of logfiles to keep"
+
+#: aqconfig.py:872
+msgid "select the debug level, 0 is none, 1  is most verbose"
+msgstr "select the debug level, 0 is none, 1  is most verbose"
+
+#: aqconfig.py:895
+msgid "Area of value"
+msgstr "Area of value"
+
+#: aqconfig.py:906
+msgid "Data"
+msgstr "Data"
+
+#: aqconfig.py:909
+msgid "select for value from datablock"
+msgstr "select for value from datablock"
+
+#: aqconfig.py:917
+msgid "Output"
+msgstr "Output"
+
+#: aqconfig.py:920
+msgid "select for value from output area"
+msgstr "select for value from output area"
+
+#: aqconfig.py:928
+msgid "Input"
+msgstr "Input"
+
+#: aqconfig.py:931
+msgid "select for value from input area"
+msgstr "select for value from input area"
+
+#: aqconfig.py:939
+msgid "Flag"
+msgstr "Flag"
+
+#: aqconfig.py:942
+msgid "select for value from flag area"
+msgstr "select for value from flag area"
+
+#: aqconfig.py:950
+msgid "Timer"
+msgstr "Timer"
+
+#: aqconfig.py:953
+msgid "select for value from timer area"
+msgstr "select for value from timer area"
+
+#: aqconfig.py:961
+msgid "Counter"
+msgstr "Counter"
+
+#: aqconfig.py:964
+msgid "select for value from counter area"
+msgstr "select for value from counter area"
+
+#: aqconfig.py:976
+msgid "Datablock no.:"
+msgstr "Datablock no.:"
+
+#: aqconfig.py:1005
+msgid "Address:"
+msgstr "Address:"
+
+#: aqconfig.py:1050
+#, fuzzy
+msgid "Name:"
+msgstr "Name:"
+
+#: aqconfig.py:1061
+msgid "Gain:"
+msgstr "Gain:"
+
+#: aqconfig.py:1072
+msgid "Offset:"
+msgstr "Offset:"
+
+#: aqconfig.py:1083
+msgid "Unit:"
+msgstr "Unit:"
+
+#: aqconfig.py:1092
+msgid "enter a name for the value "
+msgstr "enter a name for the value "
+
+#: aqconfig.py:1135
+msgid "enter a unnit for the value, e.g. kg, m, N, A..."
+msgstr "enter a unnit for the value, e.g. kg, m, N, A..."
+
+#: aqconfig.py:1146
+#, fuzzy
+msgid "Name"
+msgstr "Name"
+
+#: aqconfig.py:1157
+msgid "Bit 0"
+msgstr "Bit 0"
+
+#: aqconfig.py:1168
+msgid "Bit 1"
+msgstr "Bit 1"
+
+#: aqconfig.py:1179
+msgid "Bit 2"
+msgstr "Bit 2"
+
+#: aqconfig.py:1190
+msgid "Bit 3"
+msgstr "Bit 3"
+
+#: aqconfig.py:1201
+msgid "Bit 4"
+msgstr "Bit 4"
+
+#: aqconfig.py:1212
+msgid "Bit 5"
+msgstr "Bit 5"
+
+#: aqconfig.py:1223
+msgid "Bit 6"
+msgstr "Bit 6"
+
+#: aqconfig.py:1234
+msgid "Bit 7"
+msgstr "Bit 7"
+
+#: aqconfig.py:1243
+msgid "enter a name for the first bit"
+msgstr "enter a name for the first bit"
+
+#: aqconfig.py:1252
+msgid "enter a name for the second bit"
+msgstr "enter a name for the second bit"
+
+#: aqconfig.py:1261
+msgid "enter a name for the third bit"
+msgstr "enter a name for the third bit"
+
+#: aqconfig.py:1270
+msgid "enter a name for the fourth bit"
+msgstr "enter a name for the fourth bit"
+
+#: aqconfig.py:1279
+msgid "enter a name for the fifth bit"
+msgstr "enter a name for the fifth bit"
+
+#: aqconfig.py:1288
+msgid "enter a name for the sixth bit"
+msgstr "enter a name for the sixth bit"
+
+#: aqconfig.py:1297 aqconfig.py:1306
+msgid "enter a name for the eigth bit"
+msgstr "enter a name for the eigth bit"
+
+#: aqconfig.py:1317
+#, fuzzy
+msgid "Gain"
+msgstr "Gain"
+
+#: aqconfig.py:1328
+#, fuzzy
+msgid "Offset"
+msgstr "Offset"
+
+#: aqconfig.py:1622
+msgid "Format"
+msgstr "Format"
+
+#: aqconfig.py:1633
+msgid "Real 32 bit"
+msgstr "Real 32 bit"
+
+#: aqconfig.py:1636
+msgid "select format 32bit REAL number"
+msgstr "select format 32bit REAL number"
+
+#: aqconfig.py:1645
+msgid "Dint 32 bit"
+msgstr "Dint 32 bit"
+
+#: aqconfig.py:1648
+msgid "select format 32bit DINT number"
+msgstr "select format 32bit DINT number"
+
+#: aqconfig.py:1657
+msgid "Int 16 bit"
+msgstr "Int 16 bit"
+
+#: aqconfig.py:1660
+msgid "select format 16bit INT number"
+msgstr "select format 16bit INT number"
+
+#: aqconfig.py:1669
+msgid "Int 8 bit"
+msgstr "Int 8 bit"
+
+#: aqconfig.py:1672
+msgid "select format 8bit INT number"
+msgstr "select format 8bit INT number"
+
+#: aqconfig.py:1681
+msgid "Bool"
+msgstr "Bool"
+
+#: aqconfig.py:1684
+msgid "select format BOOLEAN, will also switch to Bool tab!"
+msgstr "select format BOOLEAN, will also switch to Bool tab!"
+
+#: aqconfig.py:1690
+msgid "value functions"
+msgstr "value functions"
+
+#: aqconfig.py:1698
+msgid "Clear"
+msgstr "Clear"
+
+#: aqconfig.py:1701
+msgid "clear all fields for a new value"
+msgstr "clear all fields for a new value"
+
+#: aqconfig.py:1708 aqconfig.py:1792
+msgid "Edit"
+msgstr "Edit"
+
+#: aqconfig.py:1711
+msgid "jump to list and select value to edit"
+msgstr "jump to list and select value to edit"
+
+#: aqconfig.py:1721 aqconfig.py:1731
+msgid "save this value settings to the list"
+msgstr "save this value settings to the list"
+
+#: aqconfig.py:1728
+msgid "Add"
+msgstr "Add"
+
+#: aqconfig.py:1787
+msgid "Double click  on line for  edit"
+msgstr "Double click  on line for  edit"
+
+#: aqconfig.py:1795
+msgid "edit selected value"
+msgstr "edit selected value"
+
+#: aqconfig.py:1801
+msgid "Delete"
+msgstr "Delete"
+
+#: aqconfig.py:1804
+msgid "delete the highlighted item from the list"
+msgstr "delete the highlighted item from the list"
+
+#: aqconfig.py:1827
+msgid "open a new file"
+msgstr "open a new file"
+
+#: aqconfig.py:1840
+msgid "open an existing file"
+msgstr "open an existing file"
+
+#: aqconfig.py:1846 aqconfig.py:1885
+msgid "Tbutton"
+msgstr "Tbutton"
+
+#: aqconfig.py:1853
+msgid "save the current file"
+msgstr "save the current file"
+
+#: aqconfig.py:1866
+msgid "save the current file as ..."
+msgstr "save the current file as ..."
+
+#: aqconfig.py:1879
+#, fuzzy
+msgid "get the path to aqserver executable"
+msgstr "get the path to aqserver executable"
+
+#: aqconfig.py:1892
+#, fuzzy
+msgid "exit this program"
+msgstr "exit this program"
+
+#: aqconfig.py:1905
+msgid "make batch file to start Aqserver"
+msgstr "make batch file to start Aqserver"
+
+#: aqconfig.py:1920
+#, fuzzy
+msgid "Help contents"
+msgstr "Help contents"
+
+#: aqconfig.py:1927
+msgid "open table of contents of program help"
+msgstr "open table of contents of program help"
+
+#: aqconfig.py:1940
+msgid "switch to contextual help mode, then pick item for help"
+msgstr "switch to contextual help mode, then pick item for help"
+
+#: aqconfig.py:1953
+#, fuzzy
+msgid "information about the program"
+msgstr "information about the program"
+
+#: aqconfig.py:1967
+msgid "statusbar"
+msgstr "statusbar"

@@ -1,0 +1,30 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.7.17)  5 NOV 2020 17:36
+entering extended mode
+**Z:/hzmmic02/documents/10_privat/aqconfig/docs/_build/latex/Aqconfig.tex
+(Z:/hzmmic02/documents/10_privat/aqconfig/docs/_build/latex/Aqconfig.tex
+LaTeX2e <2020-02-02> patch level 5
+expl3 <2019-10-28> L3 programming layer
+
+! LaTeX Error: File `sphinxmanual.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.4 \ifdefined
+              \pdfpxdimen
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 26 strings out of 481743
+ 690 string characters out of 2919317
+ 225846 words of memory out of 3000000
+ 15170 multiletter control sequences out of 15000+200000
+ 532338 words of font info for 24 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 14i,0n,17p,126b,10s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en"
+ unique-identifier="unknown"
+ prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf"
+        xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:language>en</dc:language>
+    <dc:title>Aqconfig - configuration tool for Aqserver</dc:title>
+    <dc:description>unknown</dc:description>
+    <dc:creator>Michael Taxis</dc:creator>
+    <dc:contributor>unknown</dc:contributor>
+    <dc:publisher>Michael Taxis</dc:publisher>
+    <dc:rights>2020, Michael Taxis</dc:rights>
+    <dc:identifier id="unknown">unknown</dc:identifier>
+    <dc:date>2020-11-05T17:59:01Z</dc:date>
+    <meta property="dcterms:modified">2020-11-05T17:59:01Z</meta>
+    <meta property="ibooks:version">0.1.0 alpha</meta>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta property="ibooks:binding">true</meta>
+    <meta property="ibooks:scroll-axis">vertical</meta>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="epub-0" href="changelog.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-1" href="com.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-2" href="debug.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-3" href="index.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-4" href="info.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-5" href="license.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-6" href="list.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-7" href="main.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-8" href="misc.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-9" href="settings.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-10" href="trigger.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-11" href="values.xhtml" media-type="application/xhtml+xml" />
+    <item id="epub-12" href="_images/01_info.png" media-type="image/png" />
+    <item id="epub-13" href="_images/02_com.png" media-type="image/png" />
+    <item id="epub-14" href="_images/03_misc.png" media-type="image/png" />
+    <item id="epub-15" href="_images/04_trigger-signal.png" media-type="image/png" />
+    <item id="epub-16" href="_images/04_trigger.png" media-type="image/png" />
+    <item id="epub-17" href="_images/05_debug.png" media-type="image/png" />
+    <item id="epub-18" href="_images/06_value.png" media-type="image/png" />
+    <item id="epub-19" href="_images/06_values-value.png" media-type="image/png" />
+    <item id="epub-20" href="_images/07_values-bool.png" media-type="image/png" />
+    <item id="epub-21" href="_images/08_list.png" media-type="image/png" />
+    <item id="epub-22" href="_images/btn-close.png" media-type="image/png" />
+    <item id="epub-23" href="_images/btn-configure.png" media-type="image/png" />
+    <item id="epub-24" href="_images/btn-document-new.png" media-type="image/png" />
+    <item id="epub-25" href="_images/btn-document-open.png" media-type="image/png" />
+    <item id="epub-26" href="_images/btn-document-save-as.png" media-type="image/png" />
+    <item id="epub-27" href="_images/btn-document-save.png" media-type="image/png" />
+    <item id="epub-28" href="_images/btn-help-about.png" media-type="image/png" />
+    <item id="epub-29" href="_images/btn-help-contents.png" media-type="image/png" />
+    <item id="epub-30" href="_images/btn-help-contextual.png" media-type="image/png" />
+    <item id="epub-31" href="_images/btn-ms_dos_batch_file.png" media-type="image/png" />
+    <item id="epub-32" href="_images/dialog-duplicate.png" media-type="image/png" />
+    <item id="epub-33" href="_images/dialog-path.png" media-type="image/png" />
+    <item id="epub-34" href="_images/dialog-settings.png" media-type="image/png" />
+    <item id="epub-35" href="_images/hwconfig.png" media-type="image/png" />
+    <item id="epub-36" href="_images/statusbar.png" media-type="image/png" />
+    <item id="epub-37" href="_images/toolbar.png" media-type="image/png" />
+    <item id="epub-38" href="_static/basic.css" media-type="text/css" />
+    <item id="epub-39" href="_static/epub.css" media-type="text/css" />
+    <item id="epub-40" href="_static/file.png" media-type="image/png" />
+    <item id="epub-41" href="_static/minus.png" media-type="image/png" />
+    <item id="epub-42" href="_static/plus.png" media-type="image/png" />
+    <item id="epub-43" href="_static/pygments.css" media-type="text/css" />
+    <item id="epub-44" href="_static/ti-schriftzug-sml.png" media-type="image/png" />
+  </manifest>
+  <spine toc="ncx" page-progression-direction="ltr">
+    <itemref idref="epub-3" />
+    <itemref idref="epub-7" />
+    <itemref idref="epub-4" />
+    <itemref idref="epub-1" />
+    <itemref idref="epub-8" />
+    <itemref idref="epub-10" />
+    <itemref idref="epub-2" />
+    <itemref idref="epub-11" />
+    <itemref idref="epub-6" />
+    <itemref idref="epub-9" />
+    <itemref idref="epub-0" />
+    <itemref idref="epub-5" />
+  </spine>
+  <guide>
+    <reference type="toc" title="Table of Contents" href="index.xhtml" />
+  </guide>
+</package>

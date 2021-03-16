@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-11-06 10:59+0100\n"
+"PO-Revision-Date: 2020-11-06 11:01+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+
+#: aqconfig_support.py:333
+msgid "Config file: no file open"
+msgstr "Konfigurationsdatei: keine Datei geöffnet"
+
+#: aqconfig_support.py:346
+msgid "name of customer"
+msgstr "Name des Kunden"
+
+#: aqconfig_support.py:348
+#, fuzzy
+msgid "your name"
+msgstr "gib deinen Namen ein"
+
+#: aqconfig_support.py:350
+#, fuzzy
+msgid "type of machine"
+msgstr "gib den Maschinentyp ein"
+
+#: aqconfig_support.py:352
+#, fuzzy
+msgid "order number"
+msgstr "gib die Auftragsnummer ein"
+
+#: aqconfig_support.py:372
+msgid "0 - No logging"
+msgstr "0 - kein Log"
+
+#: aqconfig_support.py:389 aqconfig_support.py:517 aqconfig_support.py:639
+msgid "name"
+msgstr "Name"
+
+#: aqconfig_support.py:404 aqconfig_support.py:532
+msgid "name 0"
+msgstr "Name 0"
+
+#: aqconfig_support.py:406 aqconfig_support.py:534
+msgid "name 1"
+msgstr "Name 1"
+
+#: aqconfig_support.py:408 aqconfig_support.py:536
+msgid "name 2"
+msgstr "Name 2"
+
+#: aqconfig_support.py:410 aqconfig_support.py:538
+msgid "name 3"
+msgstr "Name 3"
+
+#: aqconfig_support.py:412 aqconfig_support.py:540
+msgid "name 4"
+msgstr "Name 4"
+
+#: aqconfig_support.py:414 aqconfig_support.py:542
+msgid "name 5"
+msgstr "Name 5"
+
+#: aqconfig_support.py:416 aqconfig_support.py:544
+msgid "name 6"
+msgstr "Name 6"
+
+#: aqconfig_support.py:418 aqconfig_support.py:546
+msgid "name 7"
+msgstr "Name 7"
+
+#: aqconfig_support.py:474
+#, fuzzy
+msgid "data"
+msgstr "Daten"
+
+#: aqconfig_support.py:639
+msgid "gain"
+msgstr "Verstärkung"
+
+#: aqconfig_support.py:639
+msgid "offset"
+msgstr "Versatz"
+
+#: aqconfig_support.py:639
+#, fuzzy
+msgid "unit"
+msgstr "Einheit"
+
+#: aqconfig_support.py:639
+msgid "variable"
+msgstr "Variable"
+
+#: aqconfig_support.py:792
+msgid "1 - INFO"
+msgstr "1 - INFO"
+
+#: aqconfig_support.py:794
+msgid "2 - WARNING"
+msgstr "2 - WARNUNG"
+
+#: aqconfig_support.py:796
+msgid "3 - DEBUG"
+msgstr "3 - DEBUG"
+
+#: aqconfig_support.py:798
+msgid "4 - ERROR"
+msgstr "4 - FEHLER"
+
+#: aqconfig_support.py:800
+msgid "5 - CRITICAL"
+msgstr "5 - KRITSCH"
+
+#: aqconfig_support.py:802
+msgid "6 - EXCEPTION"
+msgstr "6 - EXCEPTION"
+
+#: aqconfig_support.py:804
+msgid "0 - no logging"
+msgstr "0 - kein Log"
+
+#: aqconfig_support.py:905
+msgid "Save changes?"
+msgstr "Soll gespeichert werden?"
+
+#: aqconfig_support.py:905 aqconfig_support.py:920
+msgid "Exit"
+msgstr "Schließen"
+
+#: aqconfig_support.py:920
+msgid "error"
+msgstr "Fehler"
+
+#: aqconfig_support.py:1207
+msgid "Select file"
+msgstr "Wähle Datei"
+
+#: aqconfig_support.py:1208 aqconfig_support.py:1266
+msgid "config files"
+msgstr "config- Dateien"
+
+#: aqconfig_support.py:1210
+msgid "config file: "
+msgstr "config-Datei:"
+
+#: aqconfig_support.py:1218
+msgid "Error in file, cannot open!"
+msgstr ""
+"Fehler in Datei, \n"
+"die Datei kann nicht geöffnet werden"
+
+#: aqconfig_support.py:1218
+msgid "Open config file"
+msgstr "Öffne config-Datei"
+
+#: aqconfig_support.py:1264
+#, fuzzy
+msgid "Save file as ..."
+msgstr "Speicher die aktuelle Datei"
+
+#: aqconfig_support.py:1316
+#, fuzzy
+msgid "path to aqserver.exe not set"
+msgstr "Speicherpfad von Aqserver"
+
+#: aqconfig_support.py:1316 aqconfig_support.py:1319
+msgid "Save *.bat"
+msgstr "Speichere *.bat"
+
+#: aqconfig_support.py:1320
+msgid "no config-file, save as .. or open config file"
+msgstr "Keine config-Datei, speichere als.. oder öffne eine Datei"
+
+#: aqconfig_support.py:1626 aqconfig_support.py:1789
+msgid "duplicate names:\n"
+msgstr "Doppelte Namen:\n"
+
+#: aqconfig_support.py:1629 aqconfig_support.py:1792
+msgid "Names must be unique!"
+msgstr "Namen müssen eindeutig sein!"
+
+#: aqconfig_support.py:1630 aqconfig_support.py:1793
+msgid "Save value"
+msgstr "Speichere den Wert"

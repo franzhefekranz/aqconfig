@@ -1,0 +1,311 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Values tab &#8212; Aqconfig - configuration tool for Aqserver</title>
+    <link rel="stylesheet" href="_static/bizstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script type="text/javascript" src="_static/bizstyle.js"></script>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="List tab" href="list.html" />
+    <link rel="prev" title="Debug tab" href="debug.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="list.html" title="List tab"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="debug.html" title="Debug tab"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Aqconfig</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/ti-schriftzug-sml.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Values tab</a><ul>
+<li><a class="reference internal" href="#values">Values</a><ul>
+<li><a class="reference internal" href="#value">Value</a></li>
+<li><a class="reference internal" href="#bool">Bool</a></li>
+<li><a class="reference internal" href="#buttons">Buttons</a><ul>
+<li><a class="reference internal" href="#duplicate-names">Duplicate names</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="debug.html"
+                        title="previous chapter">Debug tab</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="list.html"
+                        title="next chapter">List tab</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/values.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="values-tab">
+<h1>Values tab<a class="headerlink" href="#values-tab" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="values">
+<h2>Values<a class="headerlink" href="#values" title="Permalink to this headline">¶</a></h2>
+<img alt="Values" class="align-left" src="_images/06_value.png" />
+<ol class="arabic simple">
+<li><dl class="simple">
+<dt>Area of values</dt><dd><p>select the area of the value from the following</p>
+<ol class="loweralpha simple">
+<li><dl class="simple">
+<dt>Data</dt><dd><p>value is from the data area, you have to select also a datablock number and the address</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Output</dt><dd><p>value is from the output area, you have to select also  the address.
+Note that datablock number is greyed out.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Input</dt><dd><p>value is from the input area, you have to select also  the address.
+Note that datablock number is greyed out.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Flag</dt><dd><p>value is from the flag area, you have to select also  the address.
+Note that datablock number is greyed out.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Timer</dt><dd><p>value is from the timer area, you have to select also  the address.
+Note that datablock number is greyed out.
+Also the only allowed format is Int 16 bit</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Counter</dt><dd><p>value is from the counter area, you have to select also  the address.
+Note that datablock number is greyed out.
+Also the only allowed format is Int 16 bit</p>
+</dd>
+</dl>
+</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Data block number</dt><dd><p>enter / select the number of the datablock</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Address</dt><dd><p>enter the address of the value</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Format</dt><dd><p>select the format of the value with the radio buttons</p>
+<ol class="loweralpha simple">
+<li><dl class="simple">
+<dt>Real 32 bit</dt><dd><p>value is a real (float) number , with a length of 32 bit (REAL)
+Note that bottom notebook switches automatically to the value tab.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Dint 32 bit</dt><dd><p>value is a integer number, with a length of 32 bit (DINT)
+Note that bottom notebook switches automatically to the value tab.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Int 16 bit</dt><dd><p>value is a integer number, with a length of 16 bit (WORD)
+Note that bottom notebook switches automatically to the value tab.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Int 8 bit</dt><dd><p>value is a integer number, with a length of 8 bit (BYTE)
+Note that bottom notebook switches automatically to the value tab.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Bool</dt><dd><p>value is a boolean value (TRUE/FALSE). Note that bottom notebook
+switches automatically to the bool tab.</p>
+</dd>
+</dl>
+</li>
+</ol>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="section" id="value">
+<h3>Value<a class="headerlink" href="#value" title="Permalink to this headline">¶</a></h3>
+<img alt="Values" class="align-left" src="_images/06_values-value.png" />
+<ol class="arabic">
+<li><dl>
+<dt>Name</dt><dd><p>The name for the value</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Names have to be unique. No duplicate entries are allowed in the list!</p>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Gain</dt><dd><p>The value coming from the PLC is multiplied with this value
+This can be used if several signals have to be compared
+but have different range (but maybe the same shape). Leave 1.0 for no effect (default setting).</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Offset</dt><dd><p>This value is added to the result of (value coming from the PLC multiplied by gain)
+Use this to shift the value up or down. Leave 0.0 for no effect (default setting)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Unit</dt><dd><p>Enter a unit of the measured value, e.g. m³, bar, psi…</p>
+</dd>
+</dl>
+</li>
+</ol>
+</div>
+<div class="section" id="bool">
+<h3>Bool<a class="headerlink" href="#bool" title="Permalink to this headline">¶</a></h3>
+<p>Smallest value that can be read from the PLC is a Byte.
+So in order to get a boolean value we have to get a byte and then separate it to 8 booleans.</p>
+<img alt="Bool values" class="align-left" src="_images/07_values-bool.png" />
+<ol class="arabic simple">
+<li><dl class="simple">
+<dt>name for every bit</dt><dd><p>The name for the bits (also unique)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Gain for every bit</dt><dd><p>Gain does not make much sense, but we have it anyway. Leave 1 for no effect (default setting)</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Offset for every bit</dt><dd><p>This value is added to the result of (value coming from the PLC multiplied by gain).
+Can be useful if several boolean values are in one graph, to separate them.
+Leave 0 for no effect (default setting)</p>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>There is no unit for a boolean value</p>
+</div>
+</div>
+<div class="section" id="buttons">
+<h3>Buttons<a class="headerlink" href="#buttons" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><dl class="simple">
+<dt>Clear</dt><dd><p>This button clears the entry fields and sets some defaults</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Edit</dt><dd><p>This button switches to the list tab, sop you select a value/row for edit</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Save</dt><dd><p>Changes to a selected value will be saved to the list.
+If no value was selected previously , then button is greyed out</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Add</dt><dd><p>Values entered to the fields will be added to the end of the list</p>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="section" id="duplicate-names">
+<h4>Duplicate names<a class="headerlink" href="#duplicate-names" title="Permalink to this headline">¶</a></h4>
+<p>All value names must be unique. If a name entered to the Name field
+or to the Name0..7 field for the boolean is already in the list, a
+dialog will open and show the duplicates. Enter a different name for the shown ones
+and save/add again.</p>
+<img alt="Duplicate names" class="align-left" src="_images/dialog-duplicate.png" />
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="list.html" title="List tab"
+             >next</a></li>
+        <li class="right" >
+          <a href="debug.html" title="Debug tab"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Aqconfig</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Michael Taxis.
+      Last updated on Nov 05, 2020.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.0.
+    </div>
+  </body>
+</html>

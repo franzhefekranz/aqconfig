@@ -1,0 +1,157 @@
+
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Trigger tab &#8212; Aqconfig - configuration tool for Aqserver</title>
+    <link rel="stylesheet" href="_static/bizstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script type="text/javascript" src="_static/bizstyle.js"></script>
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Debug tab" href="debug.html" />
+    <link rel="prev" title="Miscellaneous tab" href="misc.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="debug.html" title="Debug tab"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="misc.html" title="Miscellaneous tab"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Aqconfig</a> &#187;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="index.html">
+              <img class="logo" src="_static/ti-schriftzug-sml.png" alt="Logo"/>
+            </a></p>
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Trigger tab</a><ul>
+<li><a class="reference internal" href="#trigger-wikipedia">Trigger (Wikipedia):</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="misc.html"
+                        title="previous chapter">Miscellaneous tab</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="debug.html"
+                        title="next chapter">Debug tab</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/trigger.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="trigger-tab">
+<h1>Trigger tab<a class="headerlink" href="#trigger-tab" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="trigger-wikipedia">
+<h2>Trigger (Wikipedia):<a class="headerlink" href="#trigger-wikipedia" title="Permalink to this headline">¶</a></h2>
+<p>In physics, a trigger is a system that controls the data collection of an experiment.
+Often it is not possible or not important to continuously record all measured values
+in experiments. In this case only a part of the measured values is read out and based
+on this, it is decided when the remaining data should be read out.</p>
+<p>In our case we use the trigger to start a new datafile.</p>
+<img alt="Trigger" class="align-left" src="_images/04_trigger.png" />
+<ol class="arabic">
+<li><dl class="simple">
+<dt>trigger checkbox:</dt><dd><p>switch trigger function on or off</p>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>trigger signal:</dt><dd><p>choose the trigger from available signals with the combobox</p>
+<p><img alt="04_trigger-signal" src="_images/04_trigger-signal.png" /></p>
+<p>combobox with trigger signals</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>trigger condition:</dt><dd><p>choose the comparison operator for the trigger</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>trigger value:</dt><dd><p>value the trigger signal is compared with</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>pre-trigger:</dt><dd><p>time before the trigger, where signals will go into new file</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>post-trigger:</dt><dd><p>time after trigger, where signals will go into old file</p>
+</dd>
+</dl>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Pre- and post-trigger are used to get an overlap between old and new datafile</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="debug.html" title="Debug tab"
+             >next</a></li>
+        <li class="right" >
+          <a href="misc.html" title="Miscellaneous tab"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">Aqconfig</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Michael Taxis.
+      Last updated on Nov 05, 2020.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.0.
+    </div>
+  </body>
+</html>

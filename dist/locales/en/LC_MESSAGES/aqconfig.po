@@ -1,0 +1,566 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-11-04 10:42+0100\n"
+"PO-Revision-Date: 2020-11-04 11:14+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: aqconfig.py:82
+msgid "Aqserver configuration  tool"
+msgstr ""
+
+#: aqconfig.py:100
+msgid "File"
+msgstr ""
+
+#: aqconfig.py:103 aqconfig.py:1812
+msgid "New"
+msgstr ""
+
+#: aqconfig.py:106
+msgid "Open ..."
+msgstr ""
+
+#: aqconfig.py:109 aqconfig.py:1710 aqconfig.py:1838
+msgid "Save"
+msgstr ""
+
+#: aqconfig.py:112
+msgid "Save as ..."
+msgstr ""
+
+#: aqconfig.py:115
+msgid "Save *.bat"
+msgstr ""
+
+#: aqconfig.py:118
+msgid "Settings"
+msgstr ""
+
+#: aqconfig.py:121 aqconfig.py:1877
+msgid "Quit"
+msgstr ""
+
+#: aqconfig.py:132
+msgid "Help"
+msgstr ""
+
+#: aqconfig.py:135
+msgid "Contents"
+msgstr ""
+
+#: aqconfig.py:138 aqconfig.py:1947
+msgid "Contextual help"
+msgstr ""
+
+#: aqconfig.py:141 aqconfig.py:1960
+msgid "About"
+msgstr ""
+
+#: aqconfig.py:152
+msgid "Info"
+msgstr ""
+
+#: aqconfig.py:158
+msgid "Communication"
+msgstr ""
+
+#: aqconfig.py:165
+msgid "Miscellaneous"
+msgstr ""
+
+#: aqconfig.py:172
+msgid "Trigger"
+msgstr ""
+
+#: aqconfig.py:178
+msgid "Debug"
+msgstr ""
+
+#: aqconfig.py:184
+msgid "Values"
+msgstr ""
+
+#: aqconfig.py:190
+msgid "List"
+msgstr ""
+
+#: aqconfig.py:203
+msgid "Customer:"
+msgstr ""
+
+#: aqconfig.py:213
+msgid "Creator:"
+msgstr ""
+
+#: aqconfig.py:223
+msgid "Machine:"
+msgstr ""
+
+#: aqconfig.py:233
+msgid "Order:"
+msgstr ""
+
+#: aqconfig.py:243
+msgid "Remarks:"
+msgstr ""
+
+#: aqconfig.py:255
+msgid "enter the name of the customer / mill"
+msgstr ""
+
+#: aqconfig.py:267
+msgid "enter your name"
+msgstr ""
+
+#: aqconfig.py:279
+msgid "enter the type of machine"
+msgstr ""
+
+#: aqconfig.py:291
+msgid "enter your order number"
+msgstr ""
+
+#: aqconfig.py:306
+msgid "enter some description"
+msgstr ""
+
+#: aqconfig.py:315
+msgid "Demo"
+msgstr ""
+
+#: aqconfig.py:318
+msgid "run communication in demo"
+msgstr ""
+
+#: aqconfig.py:330
+msgid "IP address:"
+msgstr ""
+
+#: aqconfig.py:342
+msgid "Rack no.:"
+msgstr ""
+
+#: aqconfig.py:354
+msgid "Slot no.:"
+msgstr ""
+
+#: aqconfig.py:510
+msgid "Attempts:"
+msgstr ""
+
+#: aqconfig.py:538
+msgid "Datafile prefix:"
+msgstr ""
+
+#: aqconfig.py:541 aqconfig.py:554
+msgid "enter name of the datafile without extension"
+msgstr ""
+
+#: aqconfig.py:551
+msgid "Storage path:"
+msgstr ""
+
+#: aqconfig.py:564
+msgid "Scantime:"
+msgstr ""
+
+#: aqconfig.py:576
+msgid "enter the name of the datafile, without extension"
+msgstr ""
+
+#: aqconfig.py:588
+msgid "enter the name of the storage path for archived files"
+msgstr ""
+
+#: aqconfig.py:601
+msgid "use yyyy/mm/dd directory structure"
+msgstr ""
+
+#: aqconfig.py:604
+msgid "files are stored in a directory structure, per day"
+msgstr ""
+
+#: aqconfig.py:640
+msgid "auto start"
+msgstr ""
+
+#: aqconfig.py:643
+msgid "files are store in a directory structure, per day"
+msgstr ""
+
+#: aqconfig.py:653
+msgid "max. records:"
+msgstr ""
+
+#: aqconfig.py:656
+msgid "maximum number of records in one file, to avoid big files"
+msgstr ""
+
+#: aqconfig.py:682
+msgid "use trigger"
+msgstr ""
+
+#: aqconfig.py:685
+msgid "use a trigger to start a new file"
+msgstr ""
+
+#: aqconfig.py:695
+msgid "Use value:"
+msgstr ""
+
+#: aqconfig.py:705
+msgid "Condition:"
+msgstr ""
+
+#: aqconfig.py:715
+msgid "Compare with:"
+msgstr ""
+
+#: aqconfig.py:725
+msgid "Pretrigger time:"
+msgstr ""
+
+#: aqconfig.py:735
+msgid "Posttrigger time:"
+msgstr ""
+
+#: aqconfig.py:746
+msgid "select value for trigger"
+msgstr ""
+
+#: aqconfig.py:759
+msgid "select the comparison operation"
+msgstr ""
+
+#: aqconfig.py:835
+msgid "Level"
+msgstr ""
+
+#: aqconfig.py:838
+msgid "level of debug messages - makes more or less verbose"
+msgstr ""
+
+#: aqconfig.py:848
+msgid "Files to keep:"
+msgstr ""
+
+#: aqconfig.py:851
+msgid "number of logfiles to keep"
+msgstr ""
+
+#: aqconfig.py:864
+msgid "select the debug level, 0 is none, 1  is most verbose"
+msgstr ""
+
+#: aqconfig.py:887
+msgid "Area of value"
+msgstr ""
+
+#: aqconfig.py:898
+msgid "Data"
+msgstr ""
+
+#: aqconfig.py:901
+msgid "select for value from datablock"
+msgstr ""
+
+#: aqconfig.py:909
+msgid "Output"
+msgstr ""
+
+#: aqconfig.py:912
+msgid "select for value from output area"
+msgstr ""
+
+#: aqconfig.py:920
+msgid "Input"
+msgstr ""
+
+#: aqconfig.py:923
+msgid "select for value from input area"
+msgstr ""
+
+#: aqconfig.py:931
+msgid "Flag"
+msgstr ""
+
+#: aqconfig.py:934
+msgid "select for value from flag area"
+msgstr ""
+
+#: aqconfig.py:942
+msgid "Timer"
+msgstr ""
+
+#: aqconfig.py:945
+msgid "select for value from timer area"
+msgstr ""
+
+#: aqconfig.py:953
+msgid "Counter"
+msgstr ""
+
+#: aqconfig.py:956
+msgid "select for value from counter area"
+msgstr ""
+
+#: aqconfig.py:968
+msgid "Datablock no.:"
+msgstr ""
+
+#: aqconfig.py:997
+msgid "Address:"
+msgstr ""
+
+#: aqconfig.py:1042
+msgid "Name:"
+msgstr ""
+
+#: aqconfig.py:1053
+msgid "Gain:"
+msgstr ""
+
+#: aqconfig.py:1064
+msgid "Offset:"
+msgstr ""
+
+#: aqconfig.py:1075
+msgid "Unit:"
+msgstr ""
+
+#: aqconfig.py:1084
+msgid "enter a name for the value "
+msgstr ""
+
+#: aqconfig.py:1127
+msgid "enter a unnit for the value, e.g. kg, m, N, A..."
+msgstr ""
+
+#: aqconfig.py:1138
+msgid "Name"
+msgstr ""
+
+#: aqconfig.py:1149
+msgid "Bit 0"
+msgstr ""
+
+#: aqconfig.py:1160
+msgid "Bit 1"
+msgstr ""
+
+#: aqconfig.py:1171
+msgid "Bit 2"
+msgstr ""
+
+#: aqconfig.py:1182
+msgid "Bit 3"
+msgstr ""
+
+#: aqconfig.py:1193
+msgid "Bit 4"
+msgstr ""
+
+#: aqconfig.py:1204
+msgid "Bit 5"
+msgstr ""
+
+#: aqconfig.py:1215
+msgid "Bit 6"
+msgstr ""
+
+#: aqconfig.py:1226
+msgid "Bit 7"
+msgstr ""
+
+#: aqconfig.py:1235
+msgid "enter a name for the first bit"
+msgstr ""
+
+#: aqconfig.py:1244
+msgid "enter a name for the second bit"
+msgstr ""
+
+#: aqconfig.py:1253
+msgid "enter a name for the third bit"
+msgstr ""
+
+#: aqconfig.py:1262
+msgid "enter a name for the fourth bit"
+msgstr ""
+
+#: aqconfig.py:1271
+msgid "enter a name for the fifth bit"
+msgstr ""
+
+#: aqconfig.py:1280
+msgid "enter a name for the sixth bit"
+msgstr ""
+
+#: aqconfig.py:1289 aqconfig.py:1298
+msgid "enter a name for the eigth bit"
+msgstr ""
+
+#: aqconfig.py:1309
+msgid "Gain"
+msgstr ""
+
+#: aqconfig.py:1320
+msgid "Offset"
+msgstr ""
+
+#: aqconfig.py:1614
+msgid "Format"
+msgstr ""
+
+#: aqconfig.py:1625
+msgid "Real 32 bit"
+msgstr ""
+
+#: aqconfig.py:1628
+msgid "select format 32bit REAL number"
+msgstr ""
+
+#: aqconfig.py:1637
+msgid "Dint 32 bit"
+msgstr ""
+
+#: aqconfig.py:1640
+msgid "select format 32bit DINT number"
+msgstr ""
+
+#: aqconfig.py:1649
+msgid "Int 16 bit"
+msgstr ""
+
+#: aqconfig.py:1652
+msgid "select format 16bit INT number"
+msgstr ""
+
+#: aqconfig.py:1661
+msgid "Int 8 bit"
+msgstr ""
+
+#: aqconfig.py:1664
+msgid "select format 8bit INT number"
+msgstr ""
+
+#: aqconfig.py:1673
+msgid "Bool"
+msgstr ""
+
+#: aqconfig.py:1676
+msgid "select format BOOLEAN, will also switch to Bool tab!"
+msgstr ""
+
+#: aqconfig.py:1682
+msgid "value functions"
+msgstr ""
+
+#: aqconfig.py:1690
+msgid "Clear"
+msgstr ""
+
+#: aqconfig.py:1693
+msgid "clear all fields for a new value"
+msgstr ""
+
+#: aqconfig.py:1700 aqconfig.py:1784
+msgid "Edit"
+msgstr ""
+
+#: aqconfig.py:1703
+msgid "jump to list and select value to edit"
+msgstr ""
+
+#: aqconfig.py:1713 aqconfig.py:1723
+msgid "save this value settings to the list"
+msgstr ""
+
+#: aqconfig.py:1720
+msgid "Add"
+msgstr ""
+
+#: aqconfig.py:1779
+msgid "Double click  on line for  edit"
+msgstr ""
+
+#: aqconfig.py:1787
+msgid "edit selected value"
+msgstr ""
+
+#: aqconfig.py:1793
+msgid "Delete"
+msgstr ""
+
+#: aqconfig.py:1796
+msgid "delete the highlighted item from the list"
+msgstr ""
+
+#: aqconfig.py:1819
+msgid "open a new file"
+msgstr ""
+
+#: aqconfig.py:1832
+msgid "open an existing file"
+msgstr ""
+
+#: aqconfig.py:1845
+msgid "save the current file"
+msgstr ""
+
+#: aqconfig.py:1858
+msgid "save the current file as ..."
+msgstr ""
+
+#: aqconfig.py:1871
+msgid "get the path to aqserver executable"
+msgstr ""
+
+#: aqconfig.py:1884
+msgid "exit this program"
+msgstr ""
+
+#: aqconfig.py:1897
+msgid "make batch file to start Aqserver"
+msgstr ""
+
+#: aqconfig.py:1918
+msgid "set the language"
+msgstr ""
+
+#: aqconfig.py:1934
+msgid "Help contents"
+msgstr ""
+
+#: aqconfig.py:1941
+msgid "open table of contents of program help"
+msgstr ""
+
+#: aqconfig.py:1954
+msgid "switch to contextual help mode, then pick item for help"
+msgstr ""
+
+#: aqconfig.py:1967
+msgid "information about the program"
+msgstr ""
+
+#: aqconfig.py:1981
+msgid "statusbar"
+msgstr ""
+
+#: aqconfig.py:2025
+msgid "No message provided"
+msgstr ""

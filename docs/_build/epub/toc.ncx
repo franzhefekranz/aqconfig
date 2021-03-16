@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="unknown"/>
+    <meta name="dtb:depth" content="3"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle>
+    <text>Aqconfig - configuration tool for Aqserver</text>
+  </docTitle>
+  <navMap>    
+    <navPoint id="navPoint1" playOrder="1">
+      <navLabel>
+        <text>Aqconfig - configuration for data acquisition server</text>
+      </navLabel>
+      <content src="index.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint2" playOrder="2">
+      <navLabel>
+        <text>Main interface</text>
+      </navLabel>
+      <content src="main.xhtml" />  
+      <navPoint id="navPoint3" playOrder="2">
+        <navLabel>
+          <text>Main interface</text>
+        </navLabel>
+        <content src="main.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint4" playOrder="3">
+        <navLabel>
+          <text>Menu and toolbar</text>
+        </navLabel>
+        <content src="main.xhtml#menu-and-toolbar" />  
+      </navPoint>
+      <navPoint id="navPoint5" playOrder="4">
+        <navLabel>
+          <text>Statusbar</text>
+        </navLabel>
+        <content src="main.xhtml#statusbar" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint6" playOrder="5">
+      <navLabel>
+        <text>Information tab</text>
+      </navLabel>
+      <content src="info.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint7" playOrder="6">
+      <navLabel>
+        <text>Communication tab</text>
+      </navLabel>
+      <content src="com.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint8" playOrder="7">
+      <navLabel>
+        <text>Miscellaneous tab</text>
+      </navLabel>
+      <content src="misc.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint9" playOrder="8">
+      <navLabel>
+        <text>Trigger tab</text>
+      </navLabel>
+      <content src="trigger.xhtml" />  
+      <navPoint id="navPoint10" playOrder="8">
+        <navLabel>
+          <text>Trigger tab</text>
+        </navLabel>
+        <content src="trigger.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint11" playOrder="9">
+        <navLabel>
+          <text>Trigger (Wikipedia):</text>
+        </navLabel>
+        <content src="trigger.xhtml#trigger-wikipedia" />  
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint12" playOrder="10">
+      <navLabel>
+        <text>Debug tab</text>
+      </navLabel>
+      <content src="debug.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint13" playOrder="11">
+      <navLabel>
+        <text>Values tab</text>
+      </navLabel>
+      <content src="values.xhtml" />  
+      <navPoint id="navPoint14" playOrder="11">
+        <navLabel>
+          <text>Values tab</text>
+        </navLabel>
+        <content src="values.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint15" playOrder="12">
+        <navLabel>
+          <text>Values</text>
+        </navLabel>
+        <content src="values.xhtml#values" />  
+        <navPoint id="navPoint16" playOrder="12">
+          <navLabel>
+            <text>Values</text>
+          </navLabel>
+          <content src="values.xhtml#values" />  
+        </navPoint>
+        <navPoint id="navPoint17" playOrder="13">
+          <navLabel>
+            <text>Value</text>
+          </navLabel>
+          <content src="values.xhtml#value" />  
+        </navPoint>
+        <navPoint id="navPoint18" playOrder="14">
+          <navLabel>
+            <text>Bool</text>
+          </navLabel>
+          <content src="values.xhtml#bool" />  
+        </navPoint>
+        <navPoint id="navPoint19" playOrder="15">
+          <navLabel>
+            <text>Buttons</text>
+          </navLabel>
+          <content src="values.xhtml#buttons" />  
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="navPoint20" playOrder="16">
+      <navLabel>
+        <text>List tab</text>
+      </navLabel>
+      <content src="list.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint21" playOrder="17">
+      <navLabel>
+        <text>Settings</text>
+      </navLabel>
+      <content src="settings.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint22" playOrder="18">
+      <navLabel>
+        <text>Changelog</text>
+      </navLabel>
+      <content src="changelog.xhtml" />  
+    </navPoint>
+    <navPoint id="navPoint23" playOrder="19">
+      <navLabel>
+        <text>Licensing</text>
+      </navLabel>
+      <content src="license.xhtml" />  
+      <navPoint id="navPoint24" playOrder="19">
+        <navLabel>
+          <text>Licensing</text>
+        </navLabel>
+        <content src="license.xhtml" />  
+      </navPoint>
+      <navPoint id="navPoint25" playOrder="20">
+        <navLabel>
+          <text>Disclaimer of Warranty</text>
+        </navLabel>
+        <content src="license.xhtml#disclaimer-of-warranty" />  
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>
