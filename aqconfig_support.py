@@ -1054,6 +1054,12 @@ def save_config_file (fName):
     global strTrigCompare
     global strTrigPreTriggerTime
     global strTrigPostTriggerTime
+    
+    # check, whether we need to trigger
+    if (boolTrigUseTrigger.get() != True):
+        strTrigValue.set('0')
+
+    # now make the string to save for trigger config section
     string = '[trigger] \n' +\
               'trgsignal = ' + strTrigValue.get() + '\n' +\
               'usetrigger = '  + str(int(boolTrigUseTrigger.get())) + '\n' +\
