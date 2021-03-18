@@ -1034,7 +1034,12 @@ def save_config_file (fName):
     global strMiscStoragePath
     global boolMiscAutostart
     global strMiscMaxRecords
-    
+
+    # check if last character for path is a backslash (\)
+    tmptxt = strMiscStoragePath.get()
+    if tmptxt[-1] != '\\':
+        tmptxt = tmptxt + '\\'
+        strMiscStoragePath.set(tmptxt)
     string = '[misc] \n' +\
               'delimiter = ;' + '\n' +\
               'datafileprefix = ' + strMiscDatafile.get() + '\n' +\
